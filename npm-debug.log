@@ -1,0 +1,299 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/acgilardi/.nvm/v0.10.31/bin/node',
+1 verbose cli   '/Users/acgilardi/.nvm/v0.10.31/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'jquery',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.23
+3 info using node@v0.10.31
+4 warn package.json package@0.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'jquery', null ]
+7 verbose cache add name=undefined spec="jquery" args=["jquery",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'jquery',
+8 verbose parsed url   path: 'jquery',
+8 verbose parsed url   href: 'jquery' }
+9 silly lockFile 6f2ab963-jquery jquery
+10 verbose lock jquery /Users/acgilardi/.npm/6f2ab963-jquery.lock
+11 silly lockFile 6f2ab963-jquery jquery
+12 silly lockFile 6f2ab963-jquery jquery
+13 verbose addNamed [ 'jquery', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 039e748d-jquery jquery@
+16 verbose lock jquery@ /Users/acgilardi/.npm/039e748d-jquery.lock
+17 silly addNameRange { name: 'jquery', range: '*', hasData: false }
+18 verbose request where is /jquery
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id bf1c2b4180e4f7c2
+21 verbose url raw /jquery
+22 verbose url resolving [ 'https://registry.npmjs.org/', './jquery' ]
+23 verbose url resolved https://registry.npmjs.org/jquery
+24 verbose request where is https://registry.npmjs.org/jquery
+25 info trying registry request attempt 1 at 07:17:24
+26 http GET https://registry.npmjs.org/jquery
+27 http 200 https://registry.npmjs.org/jquery
+28 silly registry.get cb [ 200,
+28 silly registry.get   { date: 'Wed, 25 Feb 2015 12:17:24 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     etag: '"BJEZIO70Y4DB169BXLL4Y7TID"',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     'content-length': '52990',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-iad2126-IAD',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '1',
+28 silly registry.get     'x-timer': 'S1424866644.853720,VS0,VE52',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly addNameRange number 2 { name: 'jquery', range: '*', hasData: true }
+30 silly addNameRange versions [ 'jquery',
+30 silly addNameRange   [ '1.5.1',
+30 silly addNameRange     '1.6.2',
+30 silly addNameRange     '1.6.3',
+30 silly addNameRange     '1.7.2',
+30 silly addNameRange     '1.7.3',
+30 silly addNameRange     '1.8.2',
+30 silly addNameRange     '1.8.3',
+30 silly addNameRange     '2.1.0-beta2',
+30 silly addNameRange     '2.1.0-beta3',
+30 silly addNameRange     '1.11.0-beta3',
+30 silly addNameRange     '1.11.0-rc1',
+30 silly addNameRange     '2.1.0-rc1',
+30 silly addNameRange     '1.11.0',
+30 silly addNameRange     '2.1.0',
+30 silly addNameRange     '2.1.1-beta1',
+30 silly addNameRange     '1.11.1-beta1',
+30 silly addNameRange     '2.1.1-rc1',
+30 silly addNameRange     '1.11.1-rc1',
+30 silly addNameRange     '2.1.1-rc2',
+30 silly addNameRange     '1.11.1-rc2',
+30 silly addNameRange     '2.1.1',
+30 silly addNameRange     '1.11.1',
+30 silly addNameRange     '1.9.1',
+30 silly addNameRange     '2.1.2',
+30 silly addNameRange     '1.11.2',
+30 silly addNameRange     '2.1.3' ] ]
+31 verbose addNamed [ 'jquery', '2.1.3' ]
+32 verbose addNamed [ '2.1.3', '2.1.3' ]
+33 silly lockFile 6fbd5787-jquery-2-1-3 jquery@2.1.3
+34 verbose lock jquery@2.1.3 /Users/acgilardi/.npm/6fbd5787-jquery-2-1-3.lock
+35 silly lockFile 38b3ffac-pmjs-org-jquery-jquery-2-1-3-tgz https://registry.npmjs.org/jquery/-/jquery-2.1.3.tgz
+36 verbose lock https://registry.npmjs.org/jquery/-/jquery-2.1.3.tgz /Users/acgilardi/.npm/38b3ffac-pmjs-org-jquery-jquery-2-1-3-tgz.lock
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/jquery/-/jquery-2.1.3.tgz',
+37 verbose addRemoteTarball   '6ec55204673d505d39432c5bf5cfad10e1dbad2e' ]
+38 info retry fetch attempt 1 at 07:17:24
+39 verbose fetch to= /var/folders/h1/60l0c4g574l2rmpmsmjd3z100000gn/T/npm-70557-plLcFVLg/registry.npmjs.org/jquery/-/jquery-2.1.3.tgz
+40 http GET https://registry.npmjs.org/jquery/-/jquery-2.1.3.tgz
+41 http 200 https://registry.npmjs.org/jquery/-/jquery-2.1.3.tgz
+42 silly lockFile 38b3ffac-pmjs-org-jquery-jquery-2-1-3-tgz https://registry.npmjs.org/jquery/-/jquery-2.1.3.tgz
+43 silly lockFile 38b3ffac-pmjs-org-jquery-jquery-2-1-3-tgz https://registry.npmjs.org/jquery/-/jquery-2.1.3.tgz
+44 silly lockFile 6fbd5787-jquery-2-1-3 jquery@2.1.3
+45 silly lockFile 6fbd5787-jquery-2-1-3 jquery@2.1.3
+46 silly lockFile 039e748d-jquery jquery@
+47 silly lockFile 039e748d-jquery jquery@
+48 silly resolved [ { name: 'jquery',
+48 silly resolved     title: 'jQuery',
+48 silly resolved     description: 'JavaScript library for DOM operations',
+48 silly resolved     version: '2.1.3',
+48 silly resolved     main: 'dist/jquery.js',
+48 silly resolved     homepage: 'http://jquery.com',
+48 silly resolved     author:
+48 silly resolved      { name: 'jQuery Foundation and other contributors',
+48 silly resolved        url: 'https://github.com/jquery/jquery/blob/2.1.3/AUTHORS.txt' },
+48 silly resolved     repository: { type: 'git', url: 'https://github.com/jquery/jquery.git' },
+48 silly resolved     keywords: [ 'jquery', 'javascript', 'browser', 'library' ],
+48 silly resolved     bugs: { url: 'http://bugs.jquery.com' },
+48 silly resolved     licenses: [ [Object] ],
+48 silly resolved     dependencies: {},
+48 silly resolved     devDependencies:
+48 silly resolved      { commitplease: '2.0.0',
+48 silly resolved        grunt: '0.4.2',
+48 silly resolved        'grunt-bowercopy': '0.7.1',
+48 silly resolved        'grunt-cli': '0.1.13',
+48 silly resolved        'grunt-compare-size': '0.4.0',
+48 silly resolved        'grunt-contrib-jshint': '0.8.0',
+48 silly resolved        'grunt-contrib-uglify': '0.3.2',
+48 silly resolved        'grunt-contrib-watch': '0.5.3',
+48 silly resolved        'grunt-git-authors': '1.2.0',
+48 silly resolved        'grunt-jscs-checker': '0.4.1',
+48 silly resolved        'grunt-jsonlint': '1.0.4',
+48 silly resolved        'gzip-js': '0.3.2',
+48 silly resolved        jsdom: '1.5.0',
+48 silly resolved        'load-grunt-tasks': '0.3.0',
+48 silly resolved        requirejs: '2.1.10',
+48 silly resolved        testswarm: '1.1.0' },
+48 silly resolved     scripts:
+48 silly resolved      { build: 'npm install && grunt',
+48 silly resolved        start: 'grunt watch',
+48 silly resolved        test: 'grunt' },
+48 silly resolved     gitHead: '8f2a9d9272d6ed7f32d3a484740ab342c02541e0',
+48 silly resolved     _id: 'jquery@2.1.3',
+48 silly resolved     _shasum: '6ec55204673d505d39432c5bf5cfad10e1dbad2e',
+48 silly resolved     _from: 'jquery@',
+48 silly resolved     _npmVersion: '2.1.14',
+48 silly resolved     _nodeVersion: '0.11.14',
+48 silly resolved     _npmUser: { name: 'm_gol', email: 'm.goleb@gmail.com' },
+48 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+48 silly resolved     dist:
+48 silly resolved      { shasum: '6ec55204673d505d39432c5bf5cfad10e1dbad2e',
+48 silly resolved        tarball: 'http://registry.npmjs.org/jquery/-/jquery-2.1.3.tgz' },
+48 silly resolved     directories: {},
+48 silly resolved     _resolved: 'https://registry.npmjs.org/jquery/-/jquery-2.1.3.tgz' } ]
+49 info install jquery@2.1.3 into /Users/acgilardi/Dev/gap4
+50 info installOne jquery@2.1.3
+51 verbose node_modules/jquery unbuild
+52 verbose tar unpack /Users/acgilardi/.npm/jquery/2.1.3/package.tgz
+53 silly lockFile d8801170-rdi-Dev-gap4-node-modules-jquery tar:///Users/acgilardi/Dev/gap4/node_modules/jquery
+54 verbose lock tar:///Users/acgilardi/Dev/gap4/node_modules/jquery /Users/acgilardi/.npm/d8801170-rdi-Dev-gap4-node-modules-jquery.lock
+55 silly lockFile 62113aa7-rdi-npm-jquery-2-1-3-package-tgz tar:///Users/acgilardi/.npm/jquery/2.1.3/package.tgz
+56 verbose lock tar:///Users/acgilardi/.npm/jquery/2.1.3/package.tgz /Users/acgilardi/.npm/62113aa7-rdi-npm-jquery-2-1-3-package-tgz.lock
+57 silly gunzTarPerm modes [ '755', '644' ]
+58 silly gunzTarPerm extractEntry package.json
+59 silly gunzTarPerm extractEntry .npmignore
+60 silly gunzTarPerm extractEntry README.md
+61 silly gunzTarPerm extractEntry CONTRIBUTING.md
+62 silly gunzTarPerm extractEntry .bowerrc
+63 silly gunzTarPerm extractEntry AUTHORS.txt
+64 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+65 silly gunzTarPerm extractEntry bower.json
+66 silly gunzTarPerm extractEntry dist/jquery.js
+67 silly gunzTarPerm extractEntry dist/jquery.min.js
+68 silly gunzTarPerm extractEntry dist/cdn/jquery-2.1.3.js
+69 silly gunzTarPerm extractEntry dist/cdn/jquery-2.1.3.min.js
+70 silly gunzTarPerm extractEntry dist/cdn/jquery-2.1.3.min.map
+71 silly gunzTarPerm extractEntry dist/jquery.min.map
+72 silly gunzTarPerm extractEntry src/wrap.js
+73 silly gunzTarPerm extractEntry src/dimensions.js
+74 silly gunzTarPerm extractEntry src/effects.js
+75 silly gunzTarPerm extractEntry src/event.js
+76 silly gunzTarPerm extractEntry src/deprecated.js
+77 silly gunzTarPerm extractEntry src/intro.js
+78 silly gunzTarPerm extractEntry src/jquery.js
+79 silly gunzTarPerm extractEntry src/manipulation.js
+80 silly gunzTarPerm extractEntry src/offset.js
+81 silly gunzTarPerm extractEntry src/outro.js
+82 silly gunzTarPerm extractEntry src/deferred.js
+83 silly gunzTarPerm extractEntry src/queue.js
+84 silly gunzTarPerm extractEntry src/data.js
+85 silly gunzTarPerm extractEntry src/selector-native.js
+86 silly gunzTarPerm extractEntry src/css.js
+87 silly gunzTarPerm extractEntry src/selector-sizzle.js
+88 silly gunzTarPerm extractEntry src/core.js
+89 silly gunzTarPerm extractEntry src/selector.js
+90 silly gunzTarPerm extractEntry src/callbacks.js
+91 silly gunzTarPerm extractEntry src/serialize.js
+92 silly gunzTarPerm extractEntry src/attributes.js
+93 silly gunzTarPerm extractEntry src/traversing.js
+94 silly gunzTarPerm extractEntry src/ajax.js
+95 silly gunzTarPerm extractEntry src/data/Data.js
+96 silly gunzTarPerm extractEntry src/data/accepts.js
+97 silly gunzTarPerm extractEntry src/data/var/data_priv.js
+98 silly gunzTarPerm extractEntry src/data/var/data_user.js
+99 silly gunzTarPerm extractEntry src/event/ajax.js
+100 silly gunzTarPerm extractEntry src/event/alias.js
+101 silly gunzTarPerm extractEntry src/event/support.js
+102 silly gunzTarPerm extractEntry src/queue/delay.js
+103 silly gunzTarPerm extractEntry src/core/access.js
+104 silly gunzTarPerm extractEntry src/core/init.js
+105 silly gunzTarPerm extractEntry src/core/parseHTML.js
+106 silly gunzTarPerm extractEntry src/core/ready.js
+107 silly gunzTarPerm extractEntry src/core/var/rsingleTag.js
+108 silly gunzTarPerm extractEntry src/ajax/jsonp.js
+109 silly gunzTarPerm extractEntry src/ajax/load.js
+110 silly gunzTarPerm extractEntry src/ajax/parseJSON.js
+111 silly gunzTarPerm extractEntry src/ajax/parseXML.js
+112 silly gunzTarPerm extractEntry src/ajax/script.js
+113 silly gunzTarPerm extractEntry src/ajax/xhr.js
+114 silly gunzTarPerm extractEntry src/ajax/var/nonce.js
+115 silly gunzTarPerm extractEntry src/ajax/var/rquery.js
+116 silly gunzTarPerm extractEntry src/css/addGetHookIf.js
+117 silly gunzTarPerm extractEntry src/css/curCSS.js
+118 silly gunzTarPerm extractEntry src/css/defaultDisplay.js
+119 silly gunzTarPerm extractEntry src/css/hiddenVisibleSelectors.js
+120 silly gunzTarPerm extractEntry src/css/support.js
+121 silly gunzTarPerm extractEntry src/css/swap.js
+122 silly gunzTarPerm extractEntry src/css/var/cssExpand.js
+123 silly gunzTarPerm extractEntry src/css/var/getStyles.js
+124 silly gunzTarPerm extractEntry src/css/var/isHidden.js
+125 silly gunzTarPerm extractEntry src/css/var/rmargin.js
+126 silly gunzTarPerm extractEntry src/css/var/rnumnonpx.js
+127 silly gunzTarPerm extractEntry src/attributes/attr.js
+128 silly gunzTarPerm extractEntry src/attributes/classes.js
+129 silly gunzTarPerm extractEntry src/attributes/prop.js
+130 silly gunzTarPerm extractEntry src/attributes/support.js
+131 silly gunzTarPerm extractEntry src/attributes/val.js
+132 silly gunzTarPerm extractEntry src/manipulation/_evalUrl.js
+133 silly gunzTarPerm extractEntry src/manipulation/support.js
+134 silly gunzTarPerm extractEntry src/manipulation/var/rcheckableType.js
+135 silly gunzTarPerm extractEntry src/sizzle/dist/sizzle.js
+136 silly gunzTarPerm extractEntry src/sizzle/dist/sizzle.min.js
+137 silly gunzTarPerm extractEntry src/sizzle/dist/sizzle.min.map
+138 silly gunzTarPerm extractEntry src/sizzle/test/jquery.js
+139 silly gunzTarPerm extractEntry src/sizzle/test/data/empty.js
+140 silly gunzTarPerm extractEntry src/sizzle/test/data/testinit.js
+141 silly gunzTarPerm extractEntry src/sizzle/test/data/mixed_sort.html
+142 silly gunzTarPerm extractEntry src/sizzle/test/index.html
+143 silly gunzTarPerm extractEntry src/sizzle/test/unit/extending.js
+144 silly gunzTarPerm extractEntry src/sizzle/test/unit/selector.js
+145 silly gunzTarPerm extractEntry src/sizzle/test/unit/utilities.js
+146 silly gunzTarPerm extractEntry src/traversing/findFilter.js
+147 silly gunzTarPerm extractEntry src/traversing/var/rneedsContext.js
+148 silly gunzTarPerm extractEntry src/effects/Tween.js
+149 silly gunzTarPerm extractEntry src/effects/animatedSelector.js
+150 silly gunzTarPerm extractEntry src/var/arr.js
+151 silly gunzTarPerm extractEntry src/var/concat.js
+152 silly gunzTarPerm extractEntry src/var/hasOwn.js
+153 silly gunzTarPerm extractEntry src/var/indexOf.js
+154 silly gunzTarPerm extractEntry src/var/pnum.js
+155 silly gunzTarPerm extractEntry src/var/class2type.js
+156 silly gunzTarPerm extractEntry src/var/rnotwhite.js
+157 silly gunzTarPerm extractEntry src/var/slice.js
+158 silly gunzTarPerm extractEntry src/var/strundefined.js
+159 silly gunzTarPerm extractEntry src/var/support.js
+160 silly gunzTarPerm extractEntry src/var/toString.js
+161 silly gunzTarPerm extractEntry src/var/push.js
+162 silly gunzTarPerm extractEntry src/exports/amd.js
+163 silly gunzTarPerm extractEntry src/exports/global.js
+164 silly gunzTarPerm extractEntry .jscsrc
+165 silly lockFile d8801170-rdi-Dev-gap4-node-modules-jquery tar:///Users/acgilardi/Dev/gap4/node_modules/jquery
+166 silly lockFile d8801170-rdi-Dev-gap4-node-modules-jquery tar:///Users/acgilardi/Dev/gap4/node_modules/jquery
+167 silly lockFile 62113aa7-rdi-npm-jquery-2-1-3-package-tgz tar:///Users/acgilardi/.npm/jquery/2.1.3/package.tgz
+168 silly lockFile 62113aa7-rdi-npm-jquery-2-1-3-package-tgz tar:///Users/acgilardi/.npm/jquery/2.1.3/package.tgz
+169 info preinstall jquery@2.1.3
+170 verbose readDependencies using package.json deps
+171 verbose readDependencies using package.json deps
+172 silly resolved []
+173 verbose about to build /Users/acgilardi/Dev/gap4/node_modules/jquery
+174 info build /Users/acgilardi/Dev/gap4/node_modules/jquery
+175 verbose linkStuff [ false, false, false, '/Users/acgilardi/Dev/gap4/node_modules' ]
+176 info linkStuff jquery@2.1.3
+177 verbose linkBins jquery@2.1.3
+178 verbose linkMans jquery@2.1.3
+179 verbose rebuildBundles jquery@2.1.3
+180 info install jquery@2.1.3
+181 info postinstall jquery@2.1.3
+182 error peerinvalid The package karma does not satisfy its siblings' peerDependencies requirements!
+182 error peerinvalid Peer karma-jasmine@0.1.5 wants karma@>=0.9
+182 error peerinvalid Peer karma-phantomjs-launcher@0.1.4 wants karma@>=0.9
+182 error peerinvalid Peer grunt-karma@0.6.2 wants karma@~0.10.0
+182 error peerinvalid Peer karma-coverage@0.2.7 wants karma@>=0.9
+183 error System Darwin 14.1.0
+184 error command "/Users/acgilardi/.nvm/v0.10.31/bin/node" "/Users/acgilardi/.nvm/v0.10.31/bin/npm" "install" "jquery" "--save"
+185 error cwd /Users/acgilardi/Dev/gap4
+186 error node -v v0.10.31
+187 error npm -v 1.4.23
+188 error code EPEERINVALID
+189 verbose exit [ 1, true ]
